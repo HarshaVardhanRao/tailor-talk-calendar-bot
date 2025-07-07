@@ -246,7 +246,7 @@ with input_placeholder:
                 # Normal chat to backend
                 try:
                     resp = requests.post(
-                        "http://localhost:8000/chat",
+                        "https://tailor-talk-calendar-bot.onrender.com/chat",
                         json={"message": user_msg},
                         timeout=10
                     )
